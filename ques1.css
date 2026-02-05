@@ -1,0 +1,39 @@
+*{
+    margin: 20px;
+    padding: 0;
+    justify-content: center;
+    gap: 10px;
+    background-color: lightskyblue;
+}
+
+.main{
+    display: flex;
+}
+
+.bb{
+    background-color: white;
+}
+
+
+
+#id1{
+    color: blue;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.b{
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    border-radius: 5px;
+    
+
+}
+.b1{
+    background-color: blue;
+    color: white;
+    
+    
+}
+
+

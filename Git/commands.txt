@@ -1,0 +1,4 @@
+git --version
+git init
+git add .{to add all files}
+git add file_name{for specific}

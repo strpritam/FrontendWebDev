@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .relative{
+            position: relative;
+            left: 40px;
+            right: 40px;
+            bottom: 30px;
+            background-color: lightcoral;
+            padding: 10px;
+        }
+
+        .absloute{
+            position: absolute;
+            top: 600px;
+            left: 200px;
+            
+            background-color: goldenrod;
+            padding: 10px;
+        }
+
+        .fixed{
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background-color: rgb(14, 103, 155);
+            padding: 10px;
+        }
+
+
+        .display1 span{
+
+            background-color: lightseagreen;
+            margin: 20px;
+            padding: 20px;
+        }
+        .block{
+            display: block;
+        }
+        .inline{
+            display: inline;
+        }
+        .inline-block{
+            display: inline-block;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Positioning & Display properties</h1>
+    <!-- positioning properties -->
+    <!-- three types relative, absolute, fixed -->
+     <div class="main">
+        <!-- stay in normal but can be moved -->
+        <div class="relative">Relative</div>
+
+        <!-- can moved to any place where you want to.. -->
+        <div class="absloute">Absolute</div>
+
+        <!-- cannot moved even if you scroll the page -->
+        <div class="fixed">Fixed</div>
+     </div>
+
+     <!-- Display properties -->
+      <!-- three types block, inline, inline-block -->
+
+    <div class="display1">
+        <!-- start from new line -->
+        <span class="block">Block</span>
+
+        <!-- in the same line -->
+        <span class="inline">inline</span>
+        <!-- same as inline -->
+        <span class="inline-block">inline-block</span>
+    </div>
+
+
+</body>
+</html>
